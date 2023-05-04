@@ -1,0 +1,12 @@
+C:\Users\john.paez\source\repos\Library App\LibraryApp.DataService\bin\Debug\net5.0\LibraryApp.DataService.deps.json
+C:\Users\john.paez\source\repos\Library App\LibraryApp.DataService\bin\Debug\net5.0\LibraryApp.DataService.dll
+C:\Users\john.paez\source\repos\Library App\LibraryApp.DataService\bin\Debug\net5.0\LibraryApp.DataService.pdb
+C:\Users\john.paez\source\repos\Library App\LibraryApp.DataService\obj\Debug\net5.0\LibraryApp.DataService.csproj.AssemblyReference.cache
+C:\Users\john.paez\source\repos\Library App\LibraryApp.DataService\obj\Debug\net5.0\LibraryApp.DataService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\john.paez\source\repos\Library App\LibraryApp.DataService\obj\Debug\net5.0\LibraryApp.DataService.AssemblyInfoInputs.cache
+C:\Users\john.paez\source\repos\Library App\LibraryApp.DataService\obj\Debug\net5.0\LibraryApp.DataService.AssemblyInfo.cs
+C:\Users\john.paez\source\repos\Library App\LibraryApp.DataService\obj\Debug\net5.0\LibraryApp.DataService.csproj.CoreCompileInputs.cache
+C:\Users\john.paez\source\repos\Library App\LibraryApp.DataService\obj\Debug\net5.0\LibraryApp.DataService.dll
+C:\Users\john.paez\source\repos\Library App\LibraryApp.DataService\obj\Debug\net5.0\refint\LibraryApp.DataService.dll
+C:\Users\john.paez\source\repos\Library App\LibraryApp.DataService\obj\Debug\net5.0\LibraryApp.DataService.pdb
+C:\Users\john.paez\source\repos\Library App\LibraryApp.DataService\obj\Debug\net5.0\ref\LibraryApp.DataService.dll

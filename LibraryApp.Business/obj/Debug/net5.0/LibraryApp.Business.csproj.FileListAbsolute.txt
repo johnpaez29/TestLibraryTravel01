@@ -1,0 +1,17 @@
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\bin\Debug\net5.0\LibraryApp.Business.deps.json
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\bin\Debug\net5.0\LibraryApp.Business.dll
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\bin\Debug\net5.0\LibraryApp.Business.pdb
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\bin\Debug\net5.0\LibraryApp.DataService.dll
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\bin\Debug\net5.0\LibraryApp.Model.dll
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\bin\Debug\net5.0\LibraryApp.Model.pdb
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\bin\Debug\net5.0\LibraryApp.DataService.pdb
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\obj\Debug\net5.0\LibraryApp.Business.csproj.AssemblyReference.cache
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\obj\Debug\net5.0\LibraryApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\obj\Debug\net5.0\LibraryApp.Business.AssemblyInfoInputs.cache
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\obj\Debug\net5.0\LibraryApp.Business.AssemblyInfo.cs
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\obj\Debug\net5.0\LibraryApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\obj\Debug\net5.0\LibraryApp.Business.csproj.CopyComplete
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\obj\Debug\net5.0\LibraryApp.Business.dll
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\obj\Debug\net5.0\refint\LibraryApp.Business.dll
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\obj\Debug\net5.0\LibraryApp.Business.pdb
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Business\obj\Debug\net5.0\ref\LibraryApp.Business.dll

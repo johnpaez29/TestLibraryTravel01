@@ -1,0 +1,70 @@
+﻿@model IEnumerable<LibraryApp.Model.DTO.BookDto>
+@{
+    ViewData["Title"] = "Inventario";
+}
+<h1>@ViewData["Title"]</h1>
+
+<h2>Agrega tu filtro para obtener los datos.</h2>
+
+<form asp-controller="Inventory" asp-action="Get" method="post">
+    <div class="container">
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label for="isbn">ISBN</label>
+                <input type="text" name="isbn" id="isbn" class="form-control">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="nameBook"> Nombre Libro</label>
+                <input type="text" name="nameBook" id="nameBook" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label for="editorialName">Nombre Editorial</label>
+                <select name="editorialName" id="editorialName" class="form-select-sm" asp-items="@ViewBag.Editorials"></select>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="authorName">Nombre Autor</label>
+                <select name="authorName" id="authorName" class="form-select-sm" asp-items="@ViewBag.Authors"></select>
+            </div>
+        </div>
+        @if (!string.IsNullOrEmpty(ViewBag.Error))
+        {
+            <div class="alert-danger">
+                <p>@ViewBag.Error</p>
+            </div>
+        }
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <button class="btn btn-success">Buscar</button>
+        </div>
+        <a class="btn btn-warning" asp-controller="Inventory" asp-action="Form" method="get" asp-route-id="">Adicionar Libro</a>
+    </div>
+</form>
+<hr />
+@if (Model != null)
+{
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Nombre Libro</th>
+                <th>ISBN</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model)
+            {
+                <tr>
+                    <td>@book.NameBook</td>
+                    <td>@book.Isbn</td>
+                    <td>
+                        <a asp-controller="Inventory" asp-action="Form" asp-route-id="@book.Isbn" method="get" class="col-6 list-group-item-primary">Ver</a>
+                        <a asp-controller="Inventory" asp-action="Delete" asp-route-id="@book.Isbn" class="col-6 list-group-item-danger">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

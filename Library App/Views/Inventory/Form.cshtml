@@ -1,0 +1,55 @@
+﻿@model Library_App.Models.FormBookModel
+@{
+    ViewData["Title"] = "Detalle Libro";
+}
+<h1>@ViewData["Title"]</h1>
+
+<form asp-controller="Inventory" asp-action="SubmitForm" method="post">
+    <div class="container">
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label for="isbn" class="col-md-4">ISBN</label>
+                <input type="hidden" asp-for="Isbn">
+                @Model.Isbn
+            </div>
+            <div class="form-group col-md-6">
+                <label for="NameBook" class="col-md-4"> Nombre Libro</label>
+                <input asp-for="NameBook">
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label for="PagesNumber" class="col-md-4">Número Paginas</label>
+                <input asp-for="PagesNumber">
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label for="editorialName" class="col-md-4">Nombre Editorial</label>
+                <select name="editorialName" id="editorialName" class="form-select-sm" asp-items="@ViewBag.Editorials"></select>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="authorName" class="col-md-4">Nombre Autor</label>
+                <select name="authorName" id="authorName" class="form-select-sm" asp-items="@ViewBag.Authors"></select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label for="synopsis" class="col-md-4">Sinopis</label>
+                <textarea asp-for="Synopsis"></textarea>
+            </div>
+        </div>
+        @if (!string.IsNullOrEmpty(ViewBag.Error))
+        {
+            <div class="alert-danger">
+                <p>@ViewBag.Error</p>
+            </div>
+        }
+    </div>
+    <did class="col-md-12">
+        <button class="btn btn-success">Guardar</button>
+    </did>
+
+    <a asp-controller="Inventory" asp-action="Index" class="btn list-group-item-primary">Regresar</a>
+</form>
+

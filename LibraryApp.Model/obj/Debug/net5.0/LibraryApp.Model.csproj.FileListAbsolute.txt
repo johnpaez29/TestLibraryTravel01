@@ -1,0 +1,15 @@
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Model\bin\Debug\net5.0\LibraryApp.Model.deps.json
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Model\bin\Debug\net5.0\LibraryApp.Model.dll
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Model\bin\Debug\net5.0\LibraryApp.Model.pdb
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Model\bin\Debug\net5.0\LibraryApp.DataService.dll
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Model\bin\Debug\net5.0\LibraryApp.DataService.pdb
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Model\obj\Debug\net5.0\LibraryApp.Model.csproj.AssemblyReference.cache
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Model\obj\Debug\net5.0\LibraryApp.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Model\obj\Debug\net5.0\LibraryApp.Model.AssemblyInfoInputs.cache
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Model\obj\Debug\net5.0\LibraryApp.Model.AssemblyInfo.cs
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Model\obj\Debug\net5.0\LibraryApp.Model.csproj.CoreCompileInputs.cache
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Model\obj\Debug\net5.0\LibraryApp.Model.csproj.CopyComplete
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Model\obj\Debug\net5.0\LibraryApp.Model.dll
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Model\obj\Debug\net5.0\refint\LibraryApp.Model.dll
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Model\obj\Debug\net5.0\LibraryApp.Model.pdb
+C:\Users\john.paez\source\repos\Library App\LibraryApp.Model\obj\Debug\net5.0\ref\LibraryApp.Model.dll
